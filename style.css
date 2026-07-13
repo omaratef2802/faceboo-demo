@@ -1,0 +1,69 @@
+.logo {
+  background: #4f6975;
+  color: white;
+  font-size: 30px;
+  height: 40px;
+}
+.logo:hover {
+  background: #dfe5e8;
+  color: black;
+}
+.nav-link {
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+}
+.nav-link:hover {
+  background-color: white;
+  color: black;
+}
+.proImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.menu-item {
+  background: gray;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.menu-item:hover {
+  background: white;
+  color: black;
+}
+.menu-item .material-symbols-outlined {
+  font-size: 30px;
+  margin-right: 20px;
+}
+.btn-post {
+  background: #607d8b;
+  color: white;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  transition: 0.3s;
+}
+.btn-post:hover {
+  background: whitesmoke;
+  color: black;
+}
+.form-control {
+  height: 50px;
+  border-radius: 0;
+  font-size: 20px;
+}
+.Marg {
+  margin-top: -20rem;
+}

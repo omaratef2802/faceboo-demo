@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-body-tertiary">
+    <nav
+      class="navbar navbar-expand-lg custom-navbar bg-secondary p-0 sticky-top"
+    >
+      <a class="nav-link logo px-4" href="#">
+        <span class="material-symbols-outlined me-2"> home </span>
+        Logo
+      </a>
+      <ul class="navbar-nav flex-row d-none d-md-flex">
+        <li class="nav-item">
+          <a href="#" class="nav-link px-4">
+            <span class="material-symbols-outlined"> public </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link px-4">
+            <span class="material-symbols-outlined"> person </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link px-4">
+            <span class="material-symbols-outlined"> mail </span>
+          </a>
+        </li>
+
+        <li class="nav-item position-relative">
+          <a href="#" class="nav-link px-4">
+            <span class="material-symbols-outlined"> notifications </span>
+          </a>
+        </li>
+      </ul>
+      <div class="ms-auto pe-3 d-none d-md-flex nav-link" style="width: 5%">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdrpctC3t89Bh8Ga27EZ4FE7eBvFZMEyU-C1gj8emtYg&s=10"
+          class="proImg"
+        />
+      </div>
+      <div class="d-block d-md-none">
+        <button class="navbar-toggler">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="main d-flex flex-md-row m-3 gap-5 flex-column">
+      <div class="col-12 col-md-3">
+        <div class="d-flex flex-column gap-4">
+          <div class="bg-light shadow-lg">
+            <div class="d-flex flex-column gap-3">
+              <div class="d-flex flex-column align-items-center">
+                <p class="mt-2 fs-5">My Profile</p>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlk5Jr2JXAHquR8gQpVF4BciPJGxP89hCzxAvj90BmQw&s=10"
+                  style="width: 100px; height: 100px; border-radius: 50%"
+                />
+              </div>
+              <hr class="m-4" />
+              <div>
+                <li class="list-group-item m-2">
+                  <span class="material-symbols-outlined align-middle m-2">
+                    edit
+                  </span>
+                  <span>Designer, UI</span>
+                </li>
+                <li class="list-group-item m-2">
+                  <span class="material-symbols-outlined align-middle m-2">
+                    home
+                  </span>
+                  <span>London, UK</span>
+                </li>
+                <li class="list-group-item m-2">
+                  <span class="material-symbols-outlined align-middle m-2">
+                    cake
+                  </span>
+                  <span>April 1, 1988 </span>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 shadow-sm">
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item menu-item">
+                <span class="material-symbols-outlined me-3">
+                  radio_button_unchecked
+                </span>
+                My Groups
+              </a>
+              <a href="#" class="list-group-item menu-item">
+                <span class="material-symbols-outlined me-3"> event </span>
+                My Events
+              </a>
+              <a href="#" class="list-group-item menu-item">
+                <span class="material-symbols-outlined me-3"> groups </span>
+                My Photos
+              </a>
+            </div>
+          </div>
+          <div class="d-none d-md-flex flex-md-column">
+            <div class="card border-0 shadow-lg mb-4">
+              <div class="card-body">
+                <h3 class="mb-4">Interests</h3>
+                <span class="badge bg-dark">News</span>
+                <span class="badge bg-secondary">W3Schools</span>
+                <span class="badge bg-primary">Labels</span>
+                <span class="badge bg-success">programming</span>
+                <span class="badge bg-warning text-dark">Games</span>
+                <span class="badge bg-danger">Playstaion</span>
+                <span class="badge bg-info text-dark">football</span>
+              </div>
+            </div>
+            <div class="alert alert-secondary position-relative p-4">
+              <button
+                class="btn btn-secondary rounded-0 position-absolute top-0 end-0 px-4 py-3"
+                onclick="this.parentElement.remove()"
+              >
+                <strong>&times;</strong>
+              </button>
+              <h2 class="mb-3">Hey!</h2>
+              <p class="fs-5 mb-0">
+                People are looking at your profile. Find out who.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div
+          class="card shadow-sm border-bottom border-bottom-1 mb-4"
+          style="height: 15rem"
+        >
+          <div class="card-body p-4">
+            <p class="text-secondary mb-4">Social Media template by w3.css</p>
+            <input
+              type="text"
+              class="form-control rounded-0 mb-4"
+              value="Status: Feeling Blue"
+            />
+            <button class="btn btn-post">
+              <span class="material-symbols-outlined align-middle me-2">
+                edit
+              </span>
+              Post
+            </button>
+          </div>
+        </div>
+        <div class="card border-0 shadow mb-4">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-unM0rk1r3JcLhzvwFDbuzLuS9ueR1xwRDYFOfiv-Q&s=10"
+                width="70"
+                height="70"
+              />
+              <h2 class="ms-4 mb-0">John Doe</h2>
+              <span class="ms-auto text-secondary fs-3"> 1 min </span>
+            </div>
+            <hr class="m-4" />
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <img
+                  src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700"
+                  class="w-100"
+                  style="height: 300px"
+                />
+              </div>
+
+              <div class="col-12 col-md-6">
+                <img
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=700"
+                  class="w-100"
+                  style="height: 300px"
+                />
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mt-3 flex-wrap">
+              <button class="btn btn-secondary px-4">
+                <span class="material-symbols-outlined align-middle">
+                  thumb_up
+                </span>
+                Like
+              </button>
+              <button class="btn btn-secondary px-4">
+                <span class="material-symbols-outlined align-middle">
+                  chat
+                </span>
+                Comment
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 shadow mb-4">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSumeQ42Go2RmnSR38jeR5qMFvEpcQGCNxhVtClV50JXA&s=10"
+                width="70"
+                height="70"
+              />
+              <h2 class="ms-4 mb-0">John Doe</h2>
+              <span class="ms-auto text-secondary fs-3"> 16 min </span>
+            </div>
+            <hr class="my-4" />
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="card border-0 shadow mb-4">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-center">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7oO2RWUdfwMMNgQQ6bkbIQkDBmZwrA7k22AS-jopow&s=10"
+                class="rounded-circle"
+                width="70"
+                height="70"
+              />
+              <h2 class="ms-4 mb-0">Angie Jane</h2>
+              <span class="ms-auto text-secondary fs-3"> 32 min </span>
+            </div>
+            <hr class="my-4" />
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <img
+                  src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700"
+                  class="img-fluid w-100 rounded"
+                  style="height: 300px; object-fit: cover"
+                />
+              </div>
+
+              <div class="col-12 col-md-6">
+                <img
+                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=700"
+                  class="img-fluid w-100 rounded"
+                  style="height: 300px; object-fit: cover"
+                />
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mt-3 flex-wrap">
+              <button class="btn btn-secondary px-4">
+                <span class="material-symbols-outlined align-middle">
+                  thumb_up
+                </span>
+                Like
+              </button>
+
+              <button class="btn btn-secondary">
+                <span class="material-symbols-outlined align-middle">
+                  chat
+                </span>
+                Comment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-2">
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="d-flex flex-column align-items-center p-2">
+            <p>Upcoming Events:</p>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrWsdJFvBx8g6CtZnXj9S9xcOtMmEysWTAz1M-HSrxg&s=10"
+              style="width: 90%"
+            />
+            <p>Holiday</p>
+            <p>Friday 15:00</p>
+            <button
+              class="btn btn-danger bg-secondary w-75 border border-0 p-2 w-100"
+            >
+              info
+            </button>
+          </div>
+        </div>
+
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body d-flex flex-column align-items-center p-3">
+            <h3 class="mb-3">Friend Request</h3>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-unM0rk1r3JcLhzvwFDbuzLuS9ueR1xwRDYFOfiv-Q&s=10"
+              width="100px"
+            />
+            <h2 class="mb-4">Jane Doe</h2>
+            <div class="d-flex flex-column flex-md-row col-12 gap-5 gap-md-0">
+              <div class="col-12 col-md-6">
+                <button class="btn btn-success w-100 rounded-0 py-3">
+                  <span class="material-symbols-outlined"> check </span>
+                </button>
+              </div>
+              <div class="col-12 col-md-6">
+                <button class="btn btn-danger w-100 rounded-0 py-3">
+                  <span class="material-symbols-outlined"> close </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-body text-center py-5">
+            <h2>ADS</h2>
+          </div>
+        </div>
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center py-5">
+            <span class="material-symbols-outlined" style="font-size: 70px">
+              pest_control
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="p-4 bg-primary">footer</div>
+      <div class="p-4 bg-info">Powered by ABD LLAH</div>
+    </footer>
+  </body>
+</html>
